@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PinUp</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string-array name="menu_items">
+        <item>Explore</item>
+        <item>How it Works</item>
+        <item>Start your Compaign</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action</item>
+        <item>@drawable/howitworks_ic</item>
+        <item>@drawable/startcom_ic</item>
+
+    </array>
+</resources>

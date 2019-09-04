@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.net_a.pinup_app.ExploreFragment"
+    android:background="@drawable/pinupback">
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+
+        <!--android:background="@color/colorPrimary"-->
+        <!--android:theme="@style/ToolBarTheme"-->
+        <!--android:popupTheme="@style/AppTheme"/>-->
+    <WebView
+        android:id="@+id/webview"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pinupback">
+
+    </WebView>
+
+</RelativeLayout>
